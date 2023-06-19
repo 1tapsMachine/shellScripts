@@ -1,0 +1,6 @@
+!#/bin/bash
+chmod u+x $FILE;
+git add .;
+read -p "Type a Commit Message: " message;
+git commit -m message ;
+git push;
